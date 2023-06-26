@@ -1,0 +1,14 @@
+{
+  "name": "TechloqRequests",
+  "description": "Click and input through the Access Request process for Techloq blocked pages",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://filter.techloq.com/*"
+      ]
+    }
+  ]
+}
